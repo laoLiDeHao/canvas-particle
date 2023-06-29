@@ -71,8 +71,8 @@ class Particle {
             rect1.y < rect2.y + rect2.height &&
             rect1.height + rect1.y > rect2.y) {
             // collision detected!
-            console.log('crushed');
-            this.vy-=this.vy*1.7
+
+            this.vy -= this.vy * 1.7
         }
 
 
